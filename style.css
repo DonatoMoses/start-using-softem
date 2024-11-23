@@ -74,6 +74,27 @@ button:disabled {
     cursor: not-allowed;
 }
 
+/* Add this to your existing CSS file */
+
+/* Home Button Styling */
+.home-btn-container {
+    margin-top: 20px;
+}
+
+.home-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.home-btn:hover {
+    background-color: #2980b9;
+}
+
 .start-btn {
     background-color: #27ae60;
     color: white;
